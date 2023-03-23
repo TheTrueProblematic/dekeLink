@@ -15,6 +15,21 @@ body {
     gap: 10px;
 }
 
+.logocont {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+
 .link {
     display: flex;
     align-items: center;
@@ -40,11 +55,11 @@ body {
 }
 
 .patreon {
-    background-color: #F96854;
+    background-color: #f1a297;
 }
 
 .tiktok {
-    background-color: #000;
+    background-color: #212121;
 }
 
 .linkedin {
@@ -56,9 +71,9 @@ body {
 }
 
 .twitter {
-    background-color: #1DA1F2;
+    background-color: #6face9;
 }
 
 .facebook {
-    background-color: #1877F2;
+    background-color: #64a4e2;
 }
